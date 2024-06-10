@@ -29,21 +29,6 @@ const HomeFive = () => {
       {/* Case Study Area Two */}
       <CaseStudyAreaTwo />
 
-      {/* About Area Six */}
-      <AboutAreaSix />
-
-      {/* Team Area Three */}
-      <TeamAreaThree />
-
-      {/* Work Process Four */}
-      <WorkProcessFour />
-
-      {/* Testimonial Five */}
-      <TestimonialFive />
-
-      {/* Blog Area Five */}
-      <BlogAreaFive />
-
       {/* Footer Four */}
       <FooterFour />
     </>

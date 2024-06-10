@@ -40,31 +40,29 @@ const AboutAreaFive = () => {
                   Experience intelligence like never before
                 </h2>
                 <p className='content mb-4'>
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                  We help people to make their life easier and happier with innovative AI solutions.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle className='sky' /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className='sky' />AI Assistant, ChatBot
                       </li>
                       <li>
-                        <FaCheckCircle className='sky' /> Your Startup industry
-                        stan
+                        <FaCheckCircle className='sky' />  Image Processing
+
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle className='sky' /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className='sky' />  Facial AI Technology
+
                       </li>
                       <li>
-                        <FaCheckCircle className='sky' /> Your Startup industry
-                        stan
+                        <FaCheckCircle className='sky' />  Business Strategy Prediction
+
                       </li>
                     </ul>
                   </div>

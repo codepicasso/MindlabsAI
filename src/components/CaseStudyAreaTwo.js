@@ -5,7 +5,7 @@ const CaseStudyAreaTwo = () => {
   return (
     <>
       {/*================== case-study area start ==================*/}
-      <div className='case-study-area pd-top-120'>
+      <div className='case-study-area pd-top-120 pd-bottom-60'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-5'>
@@ -23,26 +23,22 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/case-study-details'>Mind Tech</Link>
+                    <Link to='/case-study-details'>Virtual Realty</Link>
                   </h5>
-                  <a className='cat' href='#'>
-                    Las vegas
-                  </a>
+
                 </div>
               </div>
               <div className='row'>
                 <div className='col-lg-6'>
                   <div className='single-case-study-inner style-2'>
-                    <div className='thumb'>
-                      <img src='assets/img/service/12.png' alt='img' />
+                    <div className='thumb' style={{ height: 360 }}>
+                      <img src='assets/img/service/12.png' alt='img' width="100%" />
                     </div>
                     <div className='details'>
                       <h5>
-                        <Link to='/case-study-details'>Wise Mind</Link>
+                        <Link to='/case-study-details'>AI Assistant</Link>
                       </h5>
-                      <a className='cat' href='#'>
-                        Las vegas
-                      </a>
+
                     </div>
                   </div>
                 </div>
@@ -53,11 +49,9 @@ const CaseStudyAreaTwo = () => {
                     </div>
                     <div className='details'>
                       <h5>
-                        <Link to='/case-study-details'>Tecnology Farms</Link>
+                        <Link to='/case-study-details'>Unreal Engine</Link>
                       </h5>
-                      <a className='cat' href='#'>
-                        Las vegas
-                      </a>
+
                     </div>
                   </div>
                 </div>
@@ -65,16 +59,14 @@ const CaseStudyAreaTwo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner style-2'>
-                <div className='thumb'>
-                  <img src='assets/img/service/12.png' alt='img' />
+                <div className='thumb' style={{ height: 360 }}>
+                  <img src='assets/img/service/14.png' alt='img' width="100%" />
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/case-study-details'>Neural Logic.</Link>
+                    <Link to='/case-study-details'>Machine Learning</Link>
                   </h5>
-                  <a className='cat' href='#'>
-                    California
-                  </a>
+
                 </div>
               </div>
               <div className='single-case-study-inner style-2'>
@@ -85,9 +77,7 @@ const CaseStudyAreaTwo = () => {
                   <h5>
                     <Link to='/case-study-details'>AI Farms</Link>
                   </h5>
-                  <a className='cat' href='#'>
-                    California
-                  </a>
+
                 </div>
               </div>
             </div>

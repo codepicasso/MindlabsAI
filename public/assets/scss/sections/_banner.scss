@@ -4,38 +4,47 @@
 .banner-area {
   margin-top: -120px;
 }
+
 .banner-area-1 {
   padding-top: 180px;
+
   .animate-img-1 {
     position: absolute;
     left: 80px;
     bottom: 100px;
   }
+
   .animate-img-2 {
     position: absolute;
     left: 100px;
     bottom: 50px;
   }
 }
+
 .banner-area-2 {
   padding-top: 210px;
   padding-bottom: 70px;
+
   .bg-img-2 {
     position: absolute;
     right: -100px;
     top: 0;
     width: 660px;
   }
+
   .video-play-btn-hover {
     cursor: pointer;
   }
 }
+
 .banner-area-3 {
   margin-top: 0;
+
   .bg-gray {
     padding: 140px 0;
     position: relative;
   }
+
   .img-right {
     position: absolute;
     right: 0;
@@ -45,6 +54,7 @@
     height: 100%;
     z-index: 1;
   }
+
   &:after {
     content: "";
     position: absolute;
@@ -60,16 +70,19 @@
 .navbar-area-2 {
   .nav-right-part {
     align-items: center;
+
     .navbar-phone {
       color: var(--heading-color);
       background: transparent;
+
       .icon {
         background: #246bfd2e;
+
         img {
-          filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg)
-            brightness(97%) contrast(105%);
+          filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg) brightness(97%) contrast(105%);
         }
       }
+
       h5,
       span {
         color: var(--heading-color);
@@ -81,6 +94,7 @@
 .banner-inner {
   position: relative;
   z-index: 3;
+
   .subtitle {
     border-radius: 30px;
     box-shadow: 0 4.4px 30px rgba(19, 16, 34, 0.05);
@@ -92,14 +106,17 @@
     margin-bottom: 15px;
     letter-spacing: 1px;
   }
+
   .title {
     font-size: 60px;
     margin-bottom: 20px;
     font-weight: 700;
+
     span {
       color: var(--main-color);
     }
   }
+
   .content {
     margin-bottom: 32px;
   }
@@ -107,9 +124,11 @@
 
 .banner-thumb {
   position: relative;
+
   .main-img {
     border-radius: 300px 300px 0 0;
   }
+
   &:after {
     content: "";
     position: absolute;
@@ -120,12 +139,15 @@
     border: 5px solid var(--main-color);
     border-radius: 300px 300px 0 0;
   }
+
   .banner-animate-img {
     position: absolute;
   }
+
   .banner-animate-img-1 {
     left: -140px;
   }
+
   .banner-animate-img-2 {
     right: 25px;
     bottom: -25px;
@@ -134,6 +156,7 @@
     background: var(--main-color);
     padding: 20px;
   }
+
   .banner-animate-img-3 {
     right: -9px;
     bottom: -68px;
@@ -142,32 +165,40 @@
 
 .banner-thumb-2 {
   position: relative;
+
   .banner-animate-img {
     position: absolute;
   }
+
   .main-img-wrap {
     position: relative;
+
     .banner-animate-img-1 {
       left: -140px;
       width: 120px;
+      bottom: 400px;
       z-index: 1;
     }
+
     .banner-animate-img-2 {
       right: -70px;
       z-index: 1;
       top: 50px;
     }
+
     .banner-animate-img-3 {
       left: -200px;
       bottom: 100px;
       z-index: 1;
     }
   }
+
   .banner-animate-img-4 {
     right: -20px;
     top: 0;
     z-index: 0;
   }
+
   .main-img-wrap {
     z-index: 1;
     margin-left: 160px;
@@ -176,14 +207,18 @@
 
 .banner-thumb-3 {
   position: relative;
+
   .banner-animate-img {
     position: absolute;
   }
+
   position: relative;
+
   .banner-animate-img-1 {
     left: -50px;
     top: 30%;
   }
+
   .banner-animate-img-2 {
     right: 50px;
     bottom: 40px;

@@ -8,12 +8,13 @@ import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import NavbarFour from "../components/NavbarFour";
 
 const About = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarFour />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"About Us"} />

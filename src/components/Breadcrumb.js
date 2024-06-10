@@ -7,20 +7,20 @@ const Breadcrumb = ({ title }) => {
       {/* ================ Breadcrumb Start ================*/}
       <div
         className='breadcrumb-area bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/bg/7.png")' }}
+        style={{ backgroundImage: 'url(./assets/img/banner-5/5.png)' }}
       >
         <div className='container'>
           <div className='breadcrumb-inner'>
             <div className='row justify-content-center'>
               <div className='col-lg-6'>
-                <h2 className='page-title'>{title}</h2>
+                <h2 className='page-title text-white'>{title}</h2>
               </div>
               <div className='col-lg-6 text-lg-end'>
                 <ul className='page-list'>
                   <li>
-                    <Link to='/'>Home</Link>
+                    <Link className=" text-white" to='/'>Home</Link>
                   </li>
-                  {"  "}/ <li>{title}</li>
+                  {"  "}/ <li className=" text-white">{title}</li>
                 </ul>
               </div>
             </div>

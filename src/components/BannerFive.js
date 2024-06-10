@@ -10,11 +10,11 @@ const BannerFive = () => {
       {/* ================== BannerFive Start ==================*/}
       <div
         className='banner-area bg-relative banner-area-2 pb-0 bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/banner-5/5.png")' }}
+        style={{ backgroundImage: 'url("./assets/img/banner-5/5.jpg")' }}
       >
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-6 pb-xl-5 align-self-center'>
+            <div className='col-lg-6 pb-xl-5 align-self-center '>
               <div className='banner-inner pe-xl-4 pb-5'>
                 <h6
                   className='bg-base-2 text-white subtitle'
@@ -30,16 +30,15 @@ const BannerFive = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  Empowering Your Business With Artificial
+                  Explore Our AI Solutions
                 </h2>
                 <p
-                  className='content pe-xl-4'
+                  className='content pe-xl-4 text-white'
                   data-aos='fade-right'
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 >
-                  And In Order To Make A Business, Brand Advertising And
-                  Marketing Plays An Important Role. Similarly, In
+                  We help people to make their life easier and happier with innovative AI solutions.
                 </p>
                 <Link
                   className='btn btn-border-base-2'
@@ -50,23 +49,6 @@ const BannerFive = () => {
                 >
                   Discover More <FaPlus />
                 </Link>
-                <div
-                  className='d-inline-block align-self-center '
-                  data-aos='fade-right'
-                  data-aos-delay='350'
-                  data-aos-duration='1500'
-                >
-                  <a
-                    href='javascript:void(0)'
-                    onClick={() => setOpen(true)}
-                    className='video-play-btn-hover'
-                  >
-                    <img src='assets/img/video.svg' alt='img' />{" "}
-                    <h6 className='d-inline-block text-white'>how we work</h6>
-                  </a>
-
-                  <div></div>
-                </div>
                 <ModalVideo
                   channel='youtube'
                   autoplay
@@ -89,13 +71,6 @@ const BannerFive = () => {
                     src='assets/img/banner-5/3.png'
                     alt='img'
                   />
-                  <div>
-                    <img
-                      className='main-img'
-                      src='assets/img/banner-5/1.png'
-                      alt='img'
-                    />
-                  </div>
                 </div>
               </div>
             </div>

@@ -12,7 +12,7 @@ const ServiceAreaFive = () => {
               <div className='section-title text-center'>
                 <h6 className='sub-title-sky-blue'>Our Best Service</h6>
                 <h2 className='title'>
-                  Unlocking The Potential Of Data With Ai
+                  Unlocking The Potential Of Data With AI
                 </h2>
               </div>
             </div>
@@ -27,11 +27,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>AI Consult</Link>
+                    <Link to=''>Machine Learnin</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Utilize our machine learning expertise to automate complex decision-making and predictive analytics
                   </p>
                 </div>
               </div>
@@ -43,11 +42,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Data Mind</Link>
+                    <Link to=''>Computer Vision</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Revolutionize your operational capabilities with our computer vision solutions for real-time image processing
+
+
                   </p>
                 </div>
               </div>
@@ -59,18 +59,21 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>IntelliSense</Link>
+                    <Link to=''>Naturual Language Processing</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Transform how you interact with users utilizing our advanced natural language processing technologies.
+
+
                   </p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none'>
-              <div className='service-thumb service-middle-section align-self-end'>
-                <img src='assets/img/about/22.png' alt='img' />
+              <div className='service-thumb service-middle-section align-self-end p-0'>
+                <div style={{ width: "100%", height: "100%" }}>
+                  <img src='assets/img/about/2.webp' alt='img' style={{ height: "100%", objectFit: "cover" }} />
+                </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -82,11 +85,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Neural Solutions</Link>
+                    <Link to=''>Neural Solutions</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Solve intricate challenges across various industries with our scalable and efficient neural network solutions
+
+
                   </p>
                 </div>
               </div>
@@ -98,11 +102,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Wise Logic</Link>
+                    <Link to=''>Web Application with AI</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Enhance your digital presence with our AI-driven web applications tailored for dynamic user engagement
+
+
                   </p>
                 </div>
               </div>
@@ -114,11 +119,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Smart Vision</Link>
+                    <Link to=''>Android + iOS</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Build feature-rich Android and iOS applications integrated with artificial intelligence to improve user experience
+
+
                   </p>
                 </div>
               </div>
