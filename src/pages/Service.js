@@ -1,27 +1,25 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
-import PricingAreaOne from "../components/PricingAreaOne";
+
 import ServiceAreaGroup from "../components/ServiceAreaGroup";
+import NavbarFour from "../components/NavbarFour";
+import FooterFour from "../components/FooterFour";
+import PastProject from "../components/PastProject";
 
 const Service = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarFour />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"Service"} />
-
+      <PastProject />
       {/* Service Area One */}
       <ServiceAreaGroup />
 
-      {/* Pricing Area One */}
-      <PricingAreaOne />
-
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour />
     </>
   );
 };

@@ -108,7 +108,7 @@ const NavbarFour = () => {
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <Link
               className='btn btn-base-color border-radius-30 d-flex align-items-center'
-              to='/about'
+              to='/start-project'
             >
               Start Project <FaArrowRight className='mt-0' />
             </Link>

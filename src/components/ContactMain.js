@@ -109,50 +109,11 @@ const ContactMain = () => {
       </div>
 
       {/* contact list */}
-      <div className='contact-page-list'>
-        <div className='container'>
-          <div className='row justify-content-center'>
-            <div className='col-lg-4 col-md-6'>
-              <div className='media single-contact-list'>
-                <div className='media-left'>
-                  <img src='assets/img/icon/13.svg' alt='img' />
-                </div>
-                <div className='media-body'>
-                  <h5>Contacts us</h5>
-                  <h6>88 01234 2345 12</h6>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6'>
-              <div className='media single-contact-list'>
-                <div className='media-left'>
-                  <img src='assets/img/icon/14.svg' alt='img' />
-                </div>
-                <div className='media-body'>
-                  <h5>Your Email</h5>
-                  <h6>Comism@mail.com</h6>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6'>
-              <div className='media single-contact-list'>
-                <div className='media-left'>
-                  <img src='assets/img/icon/15.svg' alt='img' />
-                </div>
-                <div className='media-body'>
-                  <h5>Location</h5>
-                  <h6>99 united,America</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       {/* Map  */}
       <div className='contact-g-map'>
-        <iframe src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd' />
+        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=West%20Perth,%20Australia+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
       </div>
-
+      
       {/* ================= Contact Main End =================*/}
     </>
   );

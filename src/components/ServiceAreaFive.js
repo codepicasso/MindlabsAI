@@ -27,10 +27,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to=''>Machine Learnin</Link>
+                    <Link to=''>Machine Learning</Link>
                   </h5>
                   <p className='mb-0'>
-                    Utilize our machine learning expertise to automate complex decision-making and predictive analytics
+                    Utilise our machine learning expertise to automate complex decision-making and predictive analytics
                   </p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const ServiceAreaFive = () => {
                     <Link to=''>Computer Vision</Link>
                   </h5>
                   <p className='mb-0'>
-                    Revolutionize your operational capabilities with our computer vision solutions for real-time image processing
+                    Revolutionise your operational capabilities with our computer vision solutions for real-time image processing
 
 
                   </p>
@@ -59,7 +59,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to=''>Naturual Language Processing</Link>
+                    <Link to=''>Natural Language Processing</Link>
                   </h5>
                   <p className='mb-0'>
                     Transform how you interact with users utilizing our advanced natural language processing technologies.

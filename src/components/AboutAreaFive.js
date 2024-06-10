@@ -69,7 +69,7 @@ const AboutAreaFive = () => {
                 </div>
                 <Link
                   className='btn btn-base-color border-radius-5'
-                  to='/about'
+                  to='/service'
                 >
                   Discover More <FaArrowRight />
                 </Link>

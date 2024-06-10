@@ -23,7 +23,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/case-study-details'>Virtual Realty</Link>
+                    <Link to=''>Virtual Realty</Link>
                   </h5>
 
                 </div>
@@ -36,7 +36,7 @@ const CaseStudyAreaTwo = () => {
                     </div>
                     <div className='details'>
                       <h5>
-                        <Link to='/case-study-details'>AI Assistant</Link>
+                        <Link to=''>AI Assistant</Link>
                       </h5>
 
                     </div>
@@ -49,7 +49,7 @@ const CaseStudyAreaTwo = () => {
                     </div>
                     <div className='details'>
                       <h5>
-                        <Link to='/case-study-details'>Unreal Engine</Link>
+                        <Link to=''>Unreal Engine</Link>
                       </h5>
 
                     </div>
@@ -64,7 +64,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/case-study-details'>Machine Learning</Link>
+                    <Link to=''>Machine Learning</Link>
                   </h5>
 
                 </div>
@@ -75,7 +75,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/case-study-details'>AI Farms</Link>
+                    <Link to=''>AI Farms</Link>
                   </h5>
 
                 </div>

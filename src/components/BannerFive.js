@@ -10,7 +10,7 @@ const BannerFive = () => {
       {/* ================== BannerFive Start ==================*/}
       <div
         className='banner-area bg-relative banner-area-2 pb-0 bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/banner-5/5.jpg")' }}
+        style={{ backgroundImage: 'url("./assets/img/banner-5/5.png")' }}
       >
         <div className='container'>
           <div className='row'>
@@ -45,7 +45,7 @@ const BannerFive = () => {
                   data-aos='fade-right'
                   data-aos-delay='450'
                   data-aos-duration='1500'
-                  to='/about'
+                  to='/service'
                 >
                   Discover More <FaPlus />
                 </Link>

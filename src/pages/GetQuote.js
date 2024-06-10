@@ -1,20 +1,20 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactMain from "../components/ContactMain";
 import NavbarFour from "../components/NavbarFour";
 import FooterFour from "../components/FooterFour";
+import GetQuoteMain from "../components/GetQuoteMain";
 
-const Contact = () => {
+const StartProject = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavbarFour />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb title={"Quotation"} />
 
       {/* Contact Main */}
-      <ContactMain />
+      <GetQuoteMain />
 
       {/* Footer One */}
       <FooterFour />
@@ -22,4 +22,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default StartProject;

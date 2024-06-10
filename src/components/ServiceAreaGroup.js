@@ -7,7 +7,7 @@ const ServiceAreaGroup = () => {
   return (
     <>
       {/*=================== service area start ===================*/}
-      <div className='service-area bg-relative pd-top-100'>
+      <div className='service-area bg-relative pd-bottom-60'>
         <img
           className='position-bottom-left top_image_bounce'
           src='assets/img/icon/4.png'
@@ -29,12 +29,10 @@ const ServiceAreaGroup = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <Link to='/service-details'>{data.title}</Link>
+                      <Link to=''>{data.title}</Link>
                     </h5>
                     <p>{data.des}</p>
-                    <Link className='btn btn-border-base' to='/service-details'>
-                      Touch More <FaPlus />
-                    </Link>
+
                   </div>
                 </div>
               </div>
