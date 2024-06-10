@@ -71,6 +71,7 @@ const BannerFive = () => {
                     src='assets/img/banner-5/3.png'
                     alt='img'
                   />
+                  <div><img class="main-img" src="assets/img/banner-5/1.png" alt="img"/></div>
                 </div>
               </div>
             </div>

@@ -40,9 +40,7 @@ const NavbarFour = () => {
               placeholder='Search.....'
             />
           </div>
-          <button type='submit' className='submit-btn'>
-            <FaSearch />
-          </button>
+
         </form>
       </div>
       {/* search popup end*/}
@@ -77,9 +75,7 @@ const NavbarFour = () => {
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
-            <span className='search-bar-btn' onClick={searchActive}>
-              <FaSearch />
-            </span>
+
           </div>
           <div
             className={
