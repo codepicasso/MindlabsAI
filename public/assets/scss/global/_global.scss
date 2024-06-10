@@ -1,5 +1,5 @@
 :root {
-    --main-color: #246BFD;
+    --main-color: #50af9b;
     --main-color2: #EE0020;
     --heading-color: #101A29;
     --paragraph-color: #737588;
@@ -77,10 +77,6 @@ h6 {
 
 p {
     color: var(--paragraph-color);
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
     margin-bottom: 10px;
 }
 

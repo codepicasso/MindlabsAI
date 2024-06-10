@@ -73,6 +73,7 @@ const NavbarFour = () => {
           <div className='logo'>
             <Link to='/'>
               <img src='assets/img/logo3.png' alt='img' />
+              <span className="ms-2">MindLabs AI</span>
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
@@ -90,64 +91,15 @@ const NavbarFour = () => {
           >
             <ul className='navbar-nav menu-open text-lg-center ps-lg-5 navbarFive'>
               <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/'>Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-2'>Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-3'>Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-4'>Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-5'>Home 05</Link>
-                  </li>
-                </ul>
+                <Link to='/'>Home</Link>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/service'>Service</Link>
-                  </li>
-                  <li>
-                    <Link to='/service-details'>Service Single</Link>
-                  </li>
-                </ul>
+                <Link to='/about'>About Us</Link>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/about'>About Us</Link>
-                  </li>
-                  <li>
-                    <Link to='/team'>Team</Link>
-                  </li>
-                  <li>
-                    <Link to='/team-details'>Team Details</Link>
-                  </li>
-                  <li>
-                    <Link to='/case-study-details'>Case Study Details</Link>
-                  </li>
-                </ul>
+                <Link to='/service'>Services</Link>
               </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/blog'>Blog</Link>
-                  </li>
-                  <li>
-                    <Link to='/blog-details'>Blog Details</Link>
-                  </li>
-                </ul>
-              </li>
+
               <li>
                 <Link to='/contact'>Contact Us</Link>
               </li>
@@ -155,10 +107,10 @@ const NavbarFour = () => {
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <Link
-              className='btn btn-base-color border-radius-5 d-flex align-items-center'
+              className='btn btn-base-color border-radius-30 d-flex align-items-center'
               to='/about'
             >
-              Get a quote <FaArrowRight className='mt-0' />
+              Start Project <FaArrowRight className='mt-0' />
             </Link>
           </div>
         </div>
