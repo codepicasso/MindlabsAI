@@ -41,7 +41,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/team-details'>Vishal Maharaj </Link>
+                    <Link to=''>Vishal Maharaj </Link>
                   </h5>
                   <p>Founder</p>
                 </div>
@@ -71,13 +71,12 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/team-details'>Shane Wee</Link>
+                    <Link to=''>Shane Wee</Link>
                   </h5>
                   <p>Founder</p>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
