@@ -99,7 +99,7 @@ const Projects = () => {
   return (
     <div className="about-area pd-top-60 pd-bottom-60">
       <div className="container">
-        <h2 className="title">Past <span>Projects</span></h2>
+        <h2 className="title">Current <span>Projects</span></h2>
         {projects.map((project, index) => (
           <ProjectItem
             key={index}
