@@ -74,9 +74,7 @@ const NavbarFour = () => {
               <span className="ms-2">MindLabs AI</span>
             </Link>
           </div>
-          <div className='nav-right-part nav-right-part-mobile'>
 
-          </div>
           <div
             className={
               active
@@ -95,10 +93,14 @@ const NavbarFour = () => {
               <li className='menu-item-has-children'>
                 <Link to='/service'>Services</Link>
               </li>
-
               <li>
                 <Link to='/contact'>Contact Us</Link>
               </li>
+              {active ? <li>
+                <Link to='/contact'>Start Project</Link>
+              </li> : ""
+              }
+
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>

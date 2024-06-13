@@ -9,10 +9,10 @@ const ContactMain = () => {
     // Please See Documentation for more information
     emailjs
       .sendForm(
-        "service_yipk4xg", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        "service_2wu9j6m", //YOUR_SERVICE_ID
+        "template_vyp7dbi", //YOUR_TEMPLATE_ID
         form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+        "UNkapOVzCWzUOIw3J" //YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -91,9 +91,9 @@ const ContactMain = () => {
                     />
                   </div>
                 </div>
-                <div className='col-12 text-center'>
+                <div className='col-12 text-center '>
                   <button
-                    className='btn btn-base border-radius-5'
+                    className='btn btn-base border-radius-30'
                     type='submit'
                   >
                     Send Message

@@ -2,13 +2,8 @@ import React from "react";
 import {
   FaChevronRight,
   FaEnvelope,
-  FaFacebookF,
   FaInstagram,
   FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaRegCalendarAlt,
-  FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -34,29 +29,27 @@ const FooterFour = () => {
                     </li>
 
                     <li className='mt-2'>
-                      <FaEnvelope className='sky' />  start@mindlabsco.ai
-
+                      <FaEnvelope className='sky' />
+                      <Link
+                        to='#'
+                        onClick={(e) => {
+                          window.location.href = "mailto: start@mindlabsco.ai";
+                          e.preventDefault();
+                        }}
+                      >
+                        start@mindlabsai.co
+                      </Link>
                     </li>
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
                       <a href='#' className='sky'>
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#' className='sky'>
-                        <FaTwitter />
+                        X
                       </a>
                     </li>
                     <li>
                       <a href='#' className='sky'>
                         <FaInstagram />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#' className='sky'>
-                        <FaYoutube />
                       </a>
                     </li>
                   </ul>

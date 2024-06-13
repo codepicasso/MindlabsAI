@@ -27,7 +27,6 @@ function App() {
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/service' element={<Service />} />
         <Route exact path='/start-project' element={<StartProject />} />
-
         <Route exact path='terms-condition' element={<TermsAndCondition />} />
         <Route exact path='privacy-policy' element={<PrivacyPolicy />} />
       </Routes>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicyMain = () => {
     return (
@@ -12,7 +13,16 @@ const PrivacyPolicyMain = () => {
                             <br /><br />
                             For users or clients accessing our services from outside Australia, additional privacy rights may apply.
                             <br /><br />
-                            Should you have any questions or require further clarification, feel free to contact us at <span className="text-primary">start@mindlabsai.co</span>, and we will respond promptly.
+                            Should you have any questions or require further clarification, feel free to contact us at
+                            <Link
+                                to='#'
+                                onClick={(e) => {
+                                    window.location.href = "mailto: start@mindlabsco.ai";
+                                    e.preventDefault();
+                                }}
+                            >
+                                <span style={{ color: "#50af9b" }}> start@mindlabsai.co </span>
+                            </Link>, and we will respond promptly.
                         </p>
                     </div>
                     <div className="section-title mb-4 pb-2">
@@ -110,7 +120,16 @@ const PrivacyPolicyMain = () => {
                     <div className="section-title mb-4 pb-2">
                         <h4 className="title">Contacting Us</h4>
                         <p className="content mb-0">
-                            For any questions or to exercise your rights, please contact us at <span className="text-primary">start@mindlabsai.co</span>.
+                            For any questions or to exercise your rights, please contact us at
+                            <Link
+                                to='#'
+                                onClick={(e) => {
+                                    window.location.href = "mailto: start@mindlabsco.ai";
+                                    e.preventDefault();
+                                }}
+                            >
+                                <span style={{ color: "#50af9b" }}> start@mindlabsai.co </span>
+                            </Link>.
                         </p>
                     </div>
                 </div>
