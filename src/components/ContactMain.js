@@ -37,61 +37,65 @@ const ContactMain = () => {
       <Toaster position='bottom-center' reverseOrder={false} />
       <div className='contact-area pd-top-60 pd-bottom-120 '>
         <div className='container'>
-          <div className='contact-page-inner bg-gray border p-5'>
+          <div className='contact-page-inner bg-gray border'>
             <div className='section-title mb-4 pb-2'>
-              <h2 className='title'>Direct contact us? </h2>
+              <h3 className='title'>Direct contact us? </h3>
               <p className='content mb-0'>
                 Need expert AI solutions? Reach out to us. With our advanced technology expertise and deep industry knowledge, we're the preferred partner for innovative AI development. Connect with us today for cutting-edge, reliable AI services.
               </p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
               <div className='row'>
-                <div className='col-md-12'>
+                <div className='col-md-6'>
                   <div className='single-input-inner'>
+                    <label>Your Name</label>
                     <input
                       id='name'
                       name='user_name'
                       type='text'
-                      placeholder='Enter Your Name.'
+                      placeholder='Eg:  Michael Jarrod'
                       required
                     />
                   </div>
                 </div>
-                <div className='col-md-12'>
+                <div className='col-md-6'>
                   <div className='single-input-inner'>
+                    <label>Email Address</label>
                     <input
                       id='email'
                       name='user_email'
                       type='email'
-                      placeholder='Enter Your Email.'
+                      placeholder='Eg:  michael@jarrod.com'
                       required
                     />
                   </div>
                 </div>
-                <div className='col-md-12'>
+                <div className='col-md-12 pt-3'>
                   <div className='single-input-inner'>
+                    <label>Subject</label>
                     <input
                       id='subject'
                       name='subject'
                       type='text'
-                      placeholder='Enter Your Subject.'
+                      placeholder='Eg:  Discussion of Facial AI solution'
                       required
                     />
                   </div>
                 </div>
                 <div className='col-12'>
                   <div className='single-input-inner'>
+                    <label>Description</label>
                     <textarea
                       name='message'
-                      id='massage'
+                      id='message'
                       cols='1'
-                      rows='5'
-                      placeholder='Enter Your Massage ...'
+                      rows='8'
+                      placeholder='Eg:  We are writing to express our interests about the cooperation with your AI team. '
                       required
                     />
                   </div>
                 </div>
-                <div className='col-12 text-center '>
+                <div className='col-12 text-end mt-4 '>
                   <button
                     className='btn btn-base border-radius-30'
                     type='submit'

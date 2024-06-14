@@ -4,7 +4,7 @@ const GetQuoteMain = () => {
   return (
     <div className="contact-area pd-top-60 pd-bottom-120">
       <div className="container">
-        <div className="contact-page-inner border bg-gray p-5">
+        <div className="contact-page-inner border bg-gray">
           <div className="section-title mb-4 pb-2">
             <h3 className="title">Get a Quote from AI Experts</h3>
             <p className="content mb-0">
