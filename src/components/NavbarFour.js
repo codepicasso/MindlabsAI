@@ -97,7 +97,7 @@ const NavbarFour = () => {
                 <Link to='/contact'>Contact Us</Link>
               </li>
               {active ? <li>
-                <Link to='/contact'>Start Project</Link>
+                <Link to='/start-project'>Start Project</Link>
               </li> : ""
               }
 
