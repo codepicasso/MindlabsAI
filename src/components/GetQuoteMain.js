@@ -28,7 +28,7 @@ const GetQuoteMain = () => {
                 <div className="single-input-inner">
                   <input id="phonenumber" name="phonenumber" type="text" placeholder="Phone Number" required />
                 </div>
-              </div>
+              </div>asdf
               <div className="col-lg-3 col-md-6">
                 <div className="single-input-inner">
                   <input id="companyname" name="companyname" type="text" placeholder="Company Name" required />
