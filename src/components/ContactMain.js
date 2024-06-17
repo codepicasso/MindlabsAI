@@ -26,7 +26,7 @@ const ContactMain = () => {
         },
         (error) => {
           if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
+            toast.error("Massage Not Sent!");
           }
         }
       );
