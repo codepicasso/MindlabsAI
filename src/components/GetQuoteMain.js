@@ -14,7 +14,6 @@ const GetQuoteMain = () => {
   const form = useRef();
   const [errors, setErrors] = useState({});
   const [services, setServices] = useState(["", "", "", "", "", "", ""]);
-  const [status, setStatus] = useState("");
   const validateForm = () => {
     const newErrors = {};
     const formElements = form.current.elements;
@@ -65,12 +64,11 @@ const GetQuoteMain = () => {
         .then(
           (result) => {
             if (result.text === "OK") {
-              toast.success("Massage Sent Successfully!");
+              toast.success("Massage Sent Successfully!")
 
-              setStatus("");
-              setServices(["", "", "", "", "", "", ""]);
-              clearFormFields();
-
+              setServices(["", "", "", "", "", "", ""])
+              clearFormFields()
+              setErrors({})
             }
           },
           (error) => {
@@ -86,7 +84,6 @@ const GetQuoteMain = () => {
       document.getElementById(firstInvalidField).scrollIntoView({ behavior: 'smooth' });
     }
   };
-  console.log(form.current)
 
   return (
     <div className="contact-area pd-top-60 pd-bottom-120">
@@ -190,7 +187,7 @@ const GetQuoteMain = () => {
               {['Just an idea', 'In planning stage', 'Prototype development', 'Full-scale development', 'Maintenance and improvement of an existing solution'].map((stage, index) => (
                 <div key={index} className="col-12">
                   <div className="d-flex single-input-inner align-items-center cursor-pointer">
-                    <input id={`stage${index + 1}`} name="stage" type="radio" value={stage} onChange={() => setStatus(stage)} />
+                    <input id={`stage${index + 1}`} name="stage" type="radio" value={stage} />
                     <label htmlFor={`stage${index + 1}`}>
                       <div className="ps-3">{stage}</div>
                     </label>
